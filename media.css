@@ -1,0 +1,189 @@
+@media screen and (max-width: 1056px) {
+    .nav_col1 a {
+        display: none;
+    }
+    .br1{
+        display: block;
+    }
+    .col4{
+        flex-direction: column;
+    }
+    .icon{
+        display: flex;
+        gap: 60px;
+    }
+    .footer_row{
+        align-items: center;
+        gap: 10px;
+        flex-direction: column;
+    }
+    .col5{
+        display: block;
+    }
+    .col4{
+        margin-top: 20px;
+    }
+    .col4-title{
+        display: none;
+    }
+    .col5{
+        display: flex;
+    gap: 20px;
+    }
+    .col2{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+        
+    }
+    .inst_col1{
+        display: none;
+    }
+    .menu{
+        display: block;
+        font-size: 40px;
+    }
+    .main_row{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media screen and (max-width: 993px) {
+    .form_col1{
+        display: none;
+    }
+    .from_col{
+        justify-content: center;
+    }
+    
+}
+@media screen and (max-width: 940px) {
+    .tree_row{
+        grid-template-columns: 1fr ;
+    }
+    .tree br{
+        display: none;
+    }
+    
+    .tree_col{
+        padding: 30px 20px;
+        background-color: rgb(228, 228, 228);
+        margin-bottom: 30px;
+    }
+}
+@media screen and (max-width: 779px) {
+    .inst_col2{
+        display: none;
+    }
+}
+@media screen and (max-width: 760px) {
+    .kov_title1{
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 700px) {
+    .menu{
+        display: none;
+    }
+    
+   .kov_img{
+    width: 100%;
+    display: block;
+   }
+   .kov_row{
+    display: none;
+   }
+
+    .nav{
+        padding: 20px 0 ;
+    }
+    .nav{
+        position: fixed;
+        width: 100%;
+        top: 0;
+        background-color: white;
+        
+    }
+    .header_row{
+        padding: 50px 0 0 0 ;
+        margin-top: 100px;
+    }
+    .nav_col1 img{
+        width: 150px;
+    }
+    .nav_col2{
+        display: none;
+    }
+    .menu2{
+        font-size: 40px;
+        display: block;
+    }
+    .main_row{
+        grid-template-columns: 1fr;
+    }
+    .main-title1{
+        font-size: 15px;
+    }
+
+}
+@media screen and (max-width: 620px) {
+    .kov_title1{
+        font-size: 13px;
+    }
+    .kov br{
+        display: none;
+    }
+    .kov_title{
+        font-size: 25px;
+    }
+}
+@media screen and (max-width: 540px) {
+   
+}
+@media screen and (max-width: 500px) {
+    .header_col1-title1{
+        font-size: 30px;
+    }
+    .clean_title1{
+        font-size: 13px;
+    }
+    .clean_title{
+        font-size: 25px;
+    }
+    .clean_img{
+        height: 150px;
+        background-position: center;
+    }
+    .from_col2-title br{
+        display: flex;
+    }
+    .form_col-title{
+        font-size: 16px;
+    }
+    .form_col-title1{
+        font-size: 13px;
+    }
+    
+    
+
+}
+@media screen and (max-width: 400px) {
+    .header_col1-title1{
+        font-size: 25px;
+    }
+    .header_block1-title{
+       
+        font-size: 13px;
+    }
+    .inst_col-title{
+        font-style: normal;
+        font-weight: 600;
+        font-size: 13px;
+        margin-top: 30px;
+        line-height: 140%;
+        /* or 28px */
+        
+        
+        color: #000000;
+        
+        }
+}
